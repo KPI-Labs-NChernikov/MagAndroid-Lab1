@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="show_user">SHOW USER</string>
+    <string name="loading">Loading…</string>
+    <string name="parameter_text">%1$s: %2$s</string>
+    <string name="unknown_user">The user is unknown</string>
+</resources>
