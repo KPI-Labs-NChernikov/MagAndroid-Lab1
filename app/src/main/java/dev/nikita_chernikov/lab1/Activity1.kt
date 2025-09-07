@@ -14,7 +14,7 @@ class Activity1 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btn1.setOnClickListener {
-            var startActivity2Intent = Intent(this, Activity2::class.java)
+            val startActivity2Intent = Intent(this, Activity2::class.java)
             startActivity2Intent.putExtra(Activity2.USER_NAME_TAG, userName)
             startActivity(startActivity2Intent)
         }
